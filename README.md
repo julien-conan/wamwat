@@ -1,5 +1,4 @@
-# wamwat.com
-Key Concept Sellers 
+# WAMWAT
 Newsletter - Contact - 
 
 [Démo](https://julien-conan.github.io/wamwat.com/)
