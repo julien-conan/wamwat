@@ -1,5 +1,6 @@
 # WAMWAT
-Newsletter - Contact - 
+Newsletter
+Contact
 
 [Démo](https://julien-conan.github.io/wamwat.com/)
 
