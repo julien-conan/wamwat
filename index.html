@@ -4,9 +4,9 @@
   <head>
 
     <title>WAMWAT©2019</title>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="Wam Wat Responsive web site, with Bootstrap, Flat, Android Compatible, Smartphone Compatible, for Nokia, Samsung, LG, SonyEricsson, Motorola" />
     
     <script>
@@ -24,12 +24,12 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="css/fontawesome-all.css">
     <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
-
-    <link rel="stylesheet" href="webgl/demo2/TemplateData/style.css">
-    <script src="webgl/demo2/TemplateData/UnityProgress.js"></script>
-    <script src="webgl/demo2/Build/UnityLoader.js"></script>
+    <link rel="stylesheet" href="webgl/empty/TemplateData/style.css">
+    
+    <script src="webgl/empty/TemplateData/UnityProgress.js"></script>
+    <script src="webgl/empty/Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "webgl/demo2/Build/WebGL Demo II.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "webgl/empty/Build/empty.json", {onProgress: UnityProgress});
     </script>
 
   </head>
@@ -51,45 +51,44 @@
         </button>
 
 		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-lg-auto text-center">
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home
-							<span class="sr-only">(current)</span>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="features.html">Our Features</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Pages
-							<i class="fas fa-angle-down"></i>
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="about.html" title="">About Us</a>
-							<a class="dropdown-item" href="projects.html" title="">Projects</a>
-							<a class="dropdown-item" href="errorpage.html">404 error page</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="team.html">Team</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Pricing Pages
-							<i class="fas fa-angle-down"></i>
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="pricing.html"> Default</a>
-							<a class="dropdown-item" href="pricing_light.html"> Light Version</a>
-							<a class="dropdown-item" href="pricing.html"> Dark Version</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</li>
-				</ul>
-
+          <ul class="navbar-nav ml-lg-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="features.html">Our Features</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Pages
+                <i class="fas fa-angle-down"></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="about.html" title="">About Us</a>
+                <a class="dropdown-item" href="projects.html" title="">Projects</a>
+                <a class="dropdown-item" href="errorpage.html">404 error page</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Team</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Pricing Pages
+                <i class="fas fa-angle-down"></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="pricing.html"> Default</a>
+                <a class="dropdown-item" href="pricing_light.html"> Light Version</a>
+                <a class="dropdown-item" href="pricing.html"> Dark Version</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
 		    </div>
     
         </nav>
@@ -175,7 +174,6 @@
         <div class="container">
           <div class="welcome-bottom-grids row">
             
-            <!-- Counter -->
             <div class="col-lg-6 p-sm-5 p-4 welcome_left Features-bottom">
               <div class="layer p-sm-5 p-4 welcome_left_inner agile-info">
                   <div class="agileits_w3layouts_about_counter_left w3-agile-grid">
@@ -684,7 +682,7 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/modernizr-2.6.2.min.js"></script> 
     <script src="js/classie-search.js"></script>
-    <script src="js/demo1-search.js"></script>
+    <!--<script src="js/demo1-search.js"></script>-->
     <script>
         $(document).ready(function() {
             $(".dropdown").hover(
