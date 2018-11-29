@@ -48,11 +48,10 @@ img{
 
 /*--/header --*/
 .header-top {
-    background: #00000047;
     position: absolute;
     width: 100%;
     z-index: 9;
-    padding: .5em 0;
+    padding: .5em 1.5em;
 }
 /*--/navbar--*/
 
@@ -131,8 +130,8 @@ li.nav-item.active,li.nav-item:hover {
 .dropdown-item:hover,
 .dropdown-item:focus {
     color: #4c6ef5;
-    text-decoration: none;
-    background-color: #f0f0f1;
+	text-decoration: none;    
+	text-align: center;
 }
 
 /*-- //header --*/
@@ -614,7 +613,7 @@ h3.heading span {
 /*--bottom-last--*/
 
 .bottom-last {
-    background: url(../images/skills_touch-wall.jpg) no-repeat 0px 0px;
+    /*background: url(../images/skills_touch-wall.jpg) no-repeat 0px 0px;*/
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1509,12 +1508,12 @@ text-align:center;
 		border-color: transparent;
 	}
 	.navbar-toggler {
+		color: white;
 		font-size: 1.25rem;
-		background-color: #000000;
 		border-radius: 0;
 	}
 	.navbar-nav {
-		background: #111;
+		color: white;
 		padding: 1em 0;
 	}
 	li.nav-item {
