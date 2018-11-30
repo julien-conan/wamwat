@@ -20,7 +20,7 @@ $(document).ready(function(){
       }
       activation()
       sliding()
-    }, 10000)
+    }, 20000)
 
     $(controlSlideBtnLeft).on('click', function(){
       resetInterval()
