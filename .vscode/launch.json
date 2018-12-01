@@ -1,15 +1,18 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    // Documentation: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
             "type": "firefox",
             "request": "launch",
-            "name": "wamwamt.com Win64 Firefox",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}/index.html"
+            "reAttach": true,
+            "name": "wamwamt Win64 Firefox Launch",
+            "file": "${workspaceFolder}/index.html"
+        },
+        {
+            "type": "firefox",
+            "request": "attach",
+            "name": "wamwamt Win64 Firefox Attach"
         }
     ]
 }
