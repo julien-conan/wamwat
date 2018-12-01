@@ -6,8 +6,13 @@
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "name": "wamwamt.com Win64 Firefox",
+            "name": "wamwamt Win64 Firefox Launch",
             "file": "${workspaceFolder}/index.html"
+        },
+        {
+            "type": "firefox",
+            "request": "attach",
+            "name": "wamwamt Win64 Firefox Attach"
         }
     ]
 }
