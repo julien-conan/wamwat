@@ -1,43 +1,21 @@
 <!DOCTYPE html>
 <html class="no-js">
   <head>
+      
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>WAMWAT©2019</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     
-    <!-- CSS -->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/ionicons.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    
-    <!-- Js -->
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/min/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.js"></script>
-
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <!--<script src="js/google-map-init.js"></script>-->
-
-    <script src="js/main.js"></script>
-
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Desktop.json");
-    </script>
-
+    <link rel="stylesheet" href="css/responsive.css">      
     <style>
       html {
         box-sizing: border-box;
@@ -50,97 +28,112 @@
         height: 100vh;
 		pointer-events:none;
       }
+        section#feature::after{
+            content: "";
+  background: url(image.jpg);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+        }
     </style>
+    
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/min/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <!--<script src="js/google-map-init.js"></script>-->
+    <script src="js/main.js"></script>
+    <!--<script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Desktop.json");
+    </script>-->
 
   </head>
-  <body>
+    
+    <body>
 
-
-
-    <!-- Header Start -->
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <!-- header Nav Start -->
-          <nav class="navbar navbar-default">
-            <div class="container-fluid">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                  <img src="img/wamwat_logo_DNA_160.png" style="width: 70px" alt="Logo">
-                </a>
+        <header>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Basculer la navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                          <img src="img/wamwat_logo_DNA_160.png" style="width: 70px" alt="Logo">
+                        </a>
+                      </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="work.html">Réalisations</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">CGV</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
               </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="work.html">Work</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                  </ul>
-                </div><!-- /.navbar-collapse -->
-              </div><!-- /.container-fluid -->
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header><!-- header close -->
-        
-    <!-- Slider Start -->
-    <section id="slider" style="padding: 0">
-		<div id="gameContainer"></div>
-    </section>
-    <!-- Wrapper Start -->
-    <section id="intro">
-      <div class="container">
+        </header>
+        <section id="slider" style="padding: 0">
+            <div id="gameContainer"></div>
+        </section>
+        <section id="intro">
+        <div class="container">
         <div class="row">
           <div class="col-md-7 col-sm-12">
             <div class="block">
               <div class="section-title">
-                <h2>About Us</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                <h2>A PROPOS</h2>
+                <p>Chez Wam comme chez Wat !</p>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id </p>
+                <p>Agence de communication et marketing digital, WAMWAT vous accompagne de votre concept à sa réalisation en un temps record ! N'ayez plus peur des projets d'envergure, les dernières technologies permettent toutes les audaces. Projets en réalité virtuelle, augmentée, mixte, live. Pour la création de maquettes graphiques, visualisations de scènes réalistes, tournages et scénarisation, scénographies numériques -> <a href="">contactez-nous !</a>
             </div>
-          </div><!-- .col-md-7 close -->
+          </div>
           <div class="col-md-5 col-sm-12">
             <div class="block">
               <img src="img/wrapper-img.png" alt="Img">
             </div>
-          </div><!-- .col-md-5 close -->
+          </div>
         </div>
-      </div>
-    </section>
-
-  <section id="feature">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-6">
-          <h2>WE BELIEVE IN GREAT IDEAS</h2>
-          <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <a href="#" class="btn btn-view-works">View Works</a>
         </div>
-      </div>
-    </div>
-  </section>
-        
-    <!-- Service Start -->
-    <section id="service">
-      <div class="container">
+        </section>
+        <section id="feature">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-6 col-md-offset-6" style="color:#fff;">
+          <h2 style="color:#000000; opacity: 1.0;z-index:100000000000">PROCESSUS CREATIF</h2>
+          <p style="color:#000000;">Notre processus créatif repose sur plusieurs années d'expériences et d'expérimentations dans les domaines de la 3D, du webdesign et de la vidéo. Aidé par l'intégration rapide des dernières technologies multimédias, offrant un large pouvoir de création, nous avons à coeur de peaufiner les meilleurs rubis et joyaux numériques pour les projets de nos clients.</p>
+          <p style="color:#000000;">C'est en mêlant histoire et science-fiction, que nous sommes capables de repousser les limites connues afin de proposer des expériences ludiques, vecteurs de messages calibrés sur mesure.</p>
+          <a href="#" class="btn btn-view-works">Voir nos réalisations</a>
+        </div>
+        </div>
+        </div>
+        </section>    
+        <section id="service">
+        <div class="container">
         <div class="row">
           <div class="section-title">
-            <h2>Our Services</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+            <h2>Nos services</h2>
+            <p>Notre palette de services va de l'accompagnement à la conception de projet, jusqu'à sa livraison ainsi que son maintient en conditions opérationnelles lors d'événements ou de représentations publiques, par exemple.</p>
           </div>
         </div>
         <div class="row ">
@@ -148,82 +141,80 @@
             <div class="service-item">
               <i class="icon ion-coffee"></i>
               <h4>Branding</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+              <p>(Re)Définissons ensemble votre image de marque ! Quand et où nous finirons c'est à vous d'en décider !</p>
             </div>
           </div>
           <div class="col-sm-6 col-md-3">
             <div class="service-item">
               <i class="ion-compass"></i>
               <h4>Web Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+              <p>Conception et réalisations de maquettes numériques sur commande.</p>
             </div>
           </div>
           <div class="col-sm-6 col-md-3">
             <div class="service-item">
               <i class="ion-image"></i>
               <h4>App Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+              <p>Conception et réalisations d'applications interactives tous supports dont mobile : iOS, Androïd.</p>
             </div>
           </div>
           <div class="col-sm-6 col-md-3">
             <div class="service-item">
               <i class="ion-bug"></i>
               <h4>Start Up</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+              <p>Accompagnement technique de startups jusqu'à maturation du concept, formation et passage de relai à l'équipe technique en cours de composition.</p>
             </div>
           </div>
           <div class="col-sm-6 col-md-3">
             <div class="service-item">
               <i class="ion-headphone"></i>
               <h4>Logo Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+              <p>Créations de logo (voir le processus de création <a href="">ici</a>)</p>
             </div>
           </div>
           <div class="col-sm-6 col-md-3">
             <div class="service-item">
               <i class="ion-leaf"></i>
               <h4>Development</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+              <p>Programmation logiciel sur environnement compilés, web, voir embarqués. Environnements : Windows, MacOs, Ubuntu</p>
             </div>
           </div>
           <div class="col-sm-6 col-md-3">
             <div class="service-item">
               <i class="ion-planet"></i>
-              <h4>Brand Identity</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+              <h4>Formations</h4>
+              <p>Formations aux métiers du graphisme, de la modélisation et de la programmation ex : Arduino / Raspberry Pi, Unity, 3ds Max...</p>
             </div>
           </div>
           <div class="col-sm-6 col-md-3">
             <div class="service-item">
               <i class="ion-earth"></i>
-              <h4>Brand Identity</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+              <h4>Ateliers</h4>
+              <p>Nous venons chez vous pour des expériences ludiques hors du commun : casques de réalité virtuelles, dessin en réalité augmentée, apprendre n'aura jamais été aussi fascinant !</p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Call to action Start -->
-    <section id="call-to-action">
-      <div class="container">
+        </div>
+        </section>
+        <section id="call-to-action">
+        <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="block">
-              <h2>We design delightful digital experiences.</h2>
-              <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
-              <a class="btn btn-default btn-call-to-action" href="#" >Tell Us Your Story</a>
+              <h2>Nous concevons des expériences enrichies</h2>
+              <p>Sur tous supports, toutes thématiques, dans tous les univers connus et/ou à venir.</p>
+              <a class="btn btn-default btn-call-to-action" href="#" >Racontez-nous votre histoire</a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Content Start -->
-    <section id="testimonial">
-      <div class="container">
+        </div>
+        </section>
+        <section id="testimonial">
+        <div class="container">
         <div class="row">
           <div class="section-title text-center">
-            <h2>Fun Facts About Us</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+            <h2>Fun Facts</h2>
+            <p>Le soleil représente à lui seul plus de 99,4% de la masse globale du système solaire.</p>
           </div>
         </div>
         <div class="row">
@@ -233,29 +224,29 @@
                 <li>
                   <div class="block">
                     <i class="ion-ios-chatboxes-outline"></i>
-                    <h4 class="counter">20000</h4>
-                    <span>Cups Of Coffee</span>
+                    <h4 class="counter">167</h4>
+                    <span>Tasses de café</span>
                   </div>
                 </li>
                 <li>
                   <div class="block">
                     <i class="ion-ios-glasses-outline"></i>
-                    <h4 class="counter">20000</h4>
-                    <span>Cups Of Coffee</span>
+                    <h4 class="counter">18</h4>
+                    <span>Aubergines</span>
                   </div>
                 </li>
                 <li>
                   <div class="block">
                     <i class="ion-ios-compose-outline"></i>
-                    <h4 class="counter">20000</h4>
-                    <span>Cups Of Coffee</span>
+                    <h4 class="counter">189</h4>
+                    <span>Gourmandises</span>
                   </div>
                 </li>
                 <li>
                   <div class="block">
                     <i class="ion-ios-timer-outline"></i>
-                    <h4 class="counter">20000</h4>
-                    <span>Cups Of Coffee</span>
+                    <h4 class="counter">115</h4>
+                    <span>Meshes</span>
                   </div>
                 </li>
 
@@ -267,26 +258,26 @@
               <div id="testimonial-slider" class="owl-carousel">
                 <div>
                     <img src="img/cotation.png" alt="IMG">
-                    <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
+                    <p>"On a bossé avec les gars de chez WamWat. Promesses tenues. C'est des gars sérieux et solides, vous pouvez leur faire confiance pour vous mener à bon port. Nous avons récupéré une application pour tablette reprenant nos concepts clés, nous avons également fait réaliser l'identité visuelle de notre entreprise, ainsi qu'une partie de nos produits. Nous sommes ravis."</p>
                     <div class="user">
                       <img src="img/item-img1.jpg" alt="Pepole">
-                      <p><span>Rose Ray</span> CEO-Themefisher</p>
+                      <p><span>Rose Ray</span> Commercial</p>
                     </div>
                 </div>
                 <div>
                   <img src="img/cotation.png" alt="IMG">
-                    <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
+                    <p>"WamWat a créé une animation de vitrine pour notre magasin en centre ville, les clients s'amusent avec l'écran et certains postent des photos sur les réseaux sociaux. Merci pour la pub !</p>
                     <div class="user">
                       <img src="img/item-img1.jpg" alt="Pepole">
-                      <p><span>Rose Ray</span> CEO-Themefisher</p>
+                      <p><span>Emmanuel Chain</span> Responsable des Achats Pimkie</p>
                     </div>
                 </div>
                 <div>
                   <img src="img/cotation.png" alt="IMG">
-                    <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
+                    <p>"Nous avons fait appel à WamWat pour la réalisation d'un prototype de jeu interactif qui se déroulerait sur une île isolée, l'équipe de talent réunie dans cette entreprise a livré une maquette convaincante rapidement et satisfaisant toutes les conditions du cahier des charges. Nous avons pu faire les ajustements nécessaires ensemble pour lancer une version de production de notre application."</p>
                     <div class="user">
                       <img src="img/item-img1.jpg" alt="Pepole">
-                      <p><span>Rose Ray</span> CEO-Themefisher</p>
+                      <p><span>Bruce Springsteen</span> CEO AeroGame</p>
                     </div>
                 </div>
                 <div>
@@ -301,40 +292,28 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-
-
-
-
-
-
-
-    
-    <!-- footer Start -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="footer-manu">
-              <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">How it works</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Terms</a></li>
-              </ul>
-            </div>
-            <p>Copyright &copy; Design & Developed by <a href="http://www.themefisher.com">Themefisher</a>. All rights reserved.</p>
-          </div>
         </div>
-      </div>
-    </footer>
-            
-            
-  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-            
+        </section>
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="footer-manu">
+                  <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Réalisations</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">CGV</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+                <p>Copyright &copy; Design & Developed by <a href="http://www.themefisher.com">Themefisher</a>. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </footer>                
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>            
     
     </body>
+    
 </html>
