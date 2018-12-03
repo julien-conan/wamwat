@@ -3,7 +3,7 @@ Key Concepts
 Newsletter
 Contact
 
-[Démo](https://julien-conan.github.io/wamwat.com/)
+[Démo](https://julien-conan.github.io/wamwat/)
 
 ###### Unity 2018.2.1f17, WebGL 2.0
 ###### Jekyll 3.1.6
