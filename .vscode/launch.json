@@ -3,6 +3,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "chrome",
+            "request": "launch",
+            "name": "wamwamt MacOS Chrome Launch",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}/index.html"
+        },
+        {
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
