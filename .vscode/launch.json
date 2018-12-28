@@ -12,9 +12,9 @@
         {
             "type": "firefox",
             "request": "launch",
-            "reAttach": true,
             "name": "wamwamt Win64 Firefox Launch",
-            "file": "${workspaceFolder}/index.html"
+            "url": "http://localhost:8000",
+            "webRoot": "${workspaceFolder}/index.html"
         },
         {
             "type": "firefox",
