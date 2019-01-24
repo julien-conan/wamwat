@@ -9,5 +9,9 @@ Contact
 ###### Jekyll 3.1.6
 ###### React 16.4, Node 11.2.0, Npm 6.4.1
 
-Verified on : Firefox, Chrome
-Not working : Safari
+Verified on : Firefox 64.0, Chrome 71.0
+Not working : Safari 12.0
+
+// Commands
+
+jekyll run
