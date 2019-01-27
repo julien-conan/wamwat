@@ -1,0 +1,12 @@
+{
+"companyName": "WamWat",
+"productName": "Web-Landing",
+"dataUrl": "Build-270119.data.unityweb",
+"wasmCodeUrl": "Build-270119.wasm.code.unityweb",
+"wasmFrameworkUrl": "Build-270119.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#828080"
+}
